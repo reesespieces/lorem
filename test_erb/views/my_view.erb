@@ -1,0 +1,28 @@
+<!-- <h>Hello World</h> -->
+
+
+<!-- < % #some ruby code %> executable ruby that will be executed before the page loads -->
+
+<!-- PHP is <? ?> -->
+
+<!-- < %
+   x = 1
+   y = 2
+   z = x + y
+
+%> -->
+
+<!-- Print value by writing < %=     %> -->
+<!-- < %= z %> -->
+
+<h>A Custom Greeting</h>
+
+<% name = params[:name]
+   if name == "Harry"%>
+
+   <p>Hello <%= name %> It's nice to see ya.</p>
+
+<% else %>
+   <p>Who are you?? I don't know ya.</p>
+
+<%end%>

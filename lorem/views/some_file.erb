@@ -1,0 +1,20 @@
+<!-- <h1> < %= #@topic.to_s %>  </h1> -->
+<!-- @content instead of @contentclean to display the [paragraph[sentence[no. of words]]] -->
+
+<h1 style="background-color:white; position:fixed; height:50px; width:1260px; text-align: center; margin:0px; padding:0px;
+        top:0%;">Lorem Ipsum Generator</h1>
+
+</br>
+</br>
+</br>
+
+<% @content.each do |para| %>
+    <%= para %>
+    </br>
+    </br>
+<% end %>
+
+<div style="background-color:white; width:1260px; text-align:center; color:black; left:40%; right:40%;">
+<a href="/lorem.html">Back to Home</a>
+</div>
+<!--< % @nwords[0].each do |x|%> -->
